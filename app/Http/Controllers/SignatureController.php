@@ -17,6 +17,10 @@ class SignatureController extends Controller
 
     public function createAndGoToSigningQueue(Request $request)
     {
+        $request->validate([
+            'file_to_be_signed'  => 'required|file',
+        ]);
+
         $fileInfo = $request->file('file_to_be_signed');
 
         $filePreparationResponse = $this->guzzle->post(config('eideasy.api_url') . '/api/signatures/prepare-files-for-signing', [
