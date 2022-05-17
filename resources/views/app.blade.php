@@ -3,11 +3,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <title>eID Easy</title>
 </head>
 <body>
 <h1>eID Easy simple demo</h1>
+
+<h1 class="text-3xl font-bold underline">
+    Hello world!
+</h1>
+
 
 <form method="POST" enctype="multipart/form-data">
     {{csrf_field()}}
