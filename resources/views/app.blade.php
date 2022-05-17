@@ -35,5 +35,7 @@
         </div>
     </div>
 </main>
+
+@include('footer')
 </body>
 </html>

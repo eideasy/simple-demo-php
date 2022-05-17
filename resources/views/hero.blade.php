@@ -11,6 +11,6 @@
     </h1>
     <div class="text-2xl text-gray-600 mb-8 mt-6">
         Free for all startups attending
-        <a class="underline" target="_blank" href="https://latitude59.ee/">Latitude59</a>
+        <a class="underline" target="_blank" href="https://latitude59.ee/">Latitude59</a>!
     </div>
 </div>
