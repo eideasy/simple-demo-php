@@ -1,5 +1,5 @@
 <footer class="p-4">
-    <div class="flex justify-center mb-4">
+    <div class="md:flex flex-wrap justify-center mb-4 text-center">
         <div>
             Built with ❤️ by <a href="https://eideasy.com/" target="_blank">eID Easy</a>
         </div>

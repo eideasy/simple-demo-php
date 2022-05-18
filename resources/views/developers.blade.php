@@ -1,4 +1,4 @@
-<h2 class="text-4xl text-center mb-12 max-w-3xl ml-auto mr-auto">
+<h2 class="text-3xl md:text-4xl text-center mb-12 max-w-3xl ml-auto mr-auto">
     Wish to integrate document-signing into your own web-app/page or project?
 </h2>
 
@@ -22,7 +22,7 @@
         You can also run this app on your own infrastructure. To do so:
     </p>
     <div class="inline-block">
-        <ol class="list-decimal text-left mb-4">
+        <ol class="list-decimal text-left mb-4 pl-6">
             <li>Get eID Easy API credentials by following this short <a target="_blank"  class="underline" href="https://eideasy-docs.netlify.app/guide/api-credentials.html">guide</a></li>
             <li>Use the API credentials for <span class="font-mono bg-teal-200">EID_CLIENT_ID</span> and <span class="font-mono bg-teal-200">EID_SECRET</span>  env values in the following steps</li>
             <li>Run this app via <span class="font-mono bg-teal-200">docker-compose up</span>, or</li>
